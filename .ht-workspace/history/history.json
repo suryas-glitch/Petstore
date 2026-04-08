@@ -1,0 +1,457 @@
+[
+  {
+    "id": "1773984033970",
+    "timestamp": "2026-03-20T05:20:33.970Z",
+    "request": {
+      "method": "POST",
+      "url": "https://api.example.com/v1/pets",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"name\": \"\",\n  \"tag\": \"\"\n}"
+    },
+    "error": "Failed to fetch"
+  },
+  {
+    "id": "1773984018152",
+    "timestamp": "2026-03-20T05:20:18.152Z",
+    "request": {
+      "method": "GET",
+      "url": "https://api.example.com/v1/pets",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": ""
+    },
+    "error": "Failed to fetch"
+  },
+  {
+    "id": "1773809987306",
+    "timestamp": "2026-03-18T04:59:47.306Z",
+    "request": {
+      "method": "PUT",
+      "url": "https://petstore3.swagger.io/api/v3/pet",
+      "headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "body": "id=10&name=doggie&category=%5Bobject+Object%5D&photoUrls=&tags=%5Bobject+Object%5D&status="
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-length": "52",
+        "content-type": "application/json"
+      },
+      "body": "{\"id\":10,\"name\":\"doggie\",\"tags\":[\"[object Object]\"]}",
+      "responseTime": 1377,
+      "size": 52
+    }
+  },
+  {
+    "id": "1773742798607",
+    "timestamp": "2026-03-17T10:19:58.607Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": ""
+    },
+    "response": {
+      "status": 405,
+      "statusText": "",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"code\":405,\"type\":\"unknown\",\"message\":\"no data\"}",
+      "responseTime": 1148,
+      "size": 49
+    }
+  },
+  {
+    "id": "1773406273337",
+    "timestamp": "2026-03-13T12:51:13.337Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"id\":9223372036854716215,\"category\":{\"id\":0,\"name\":\"string\"},\"name\":\"doggie\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":0,\"name\":\"string\"}],\"status\":\"available\"}",
+      "responseTime": 571,
+      "size": 156
+    }
+  },
+  {
+    "id": "1773406266160",
+    "timestamp": "2026-03-13T12:51:06.160Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"id\":9223372036854716214,\"category\":{\"id\":0,\"name\":\"string\"},\"name\":\"doggie\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":0,\"name\":\"string\"}],\"status\":\"available\"}",
+      "responseTime": 563,
+      "size": 156
+    }
+  },
+  {
+    "id": "1773406254146",
+    "timestamp": "2026-03-13T12:50:54.146Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"id\":9223372036854716206,\"category\":{\"id\":0,\"name\":\"string\"},\"name\":\"doggie\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":0,\"name\":\"string\"}],\"status\":\"available\"}",
+      "responseTime": 664,
+      "size": 156
+    }
+  },
+  {
+    "id": "1773406222735",
+    "timestamp": "2026-03-13T12:50:22.735Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"id\":9223372036854716197,\"category\":{\"id\":0,\"name\":\"string\"},\"name\":\"doggie\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":0,\"name\":\"string\"}],\"status\":\"available\"}",
+      "responseTime": 1362,
+      "size": 156
+    }
+  },
+  {
+    "id": "1773406106111",
+    "timestamp": "2026-03-13T12:48:26.111Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "error": "Failed to fetch"
+  },
+  {
+    "id": "1773406100022",
+    "timestamp": "2026-03-13T12:48:20.022Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "error": "Failed to fetch"
+  },
+  {
+    "id": "1773406097838",
+    "timestamp": "2026-03-13T12:48:17.838Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "error": "Failed to fetch"
+  },
+  {
+    "id": "1773406036558",
+    "timestamp": "2026-03-13T12:47:16.558Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"id\":9223372036854716172,\"category\":{\"id\":0,\"name\":\"string\"},\"name\":\"doggie\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":0,\"name\":\"string\"}],\"status\":\"available\"}",
+      "responseTime": 1311,
+      "size": 156
+    }
+  },
+  {
+    "id": "1773308786683",
+    "timestamp": "2026-03-12T09:46:26.683Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"id\":9223372036854775807,\"category\":{\"id\":0,\"name\":\"string\"},\"name\":\"doggie\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":0,\"name\":\"string\"}],\"status\":\"available\"}",
+      "responseTime": 1047,
+      "size": 156
+    }
+  },
+  {
+    "id": "1773308754578",
+    "timestamp": "2026-03-12T09:45:54.578Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"id\":9223372036854775807,\"category\":{\"id\":0,\"name\":\"string\"},\"name\":\"doggie\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":0,\"name\":\"string\"}],\"status\":\"available\"}",
+      "responseTime": 1256,
+      "size": 156
+    }
+  },
+  {
+    "id": "1773125903584",
+    "timestamp": "2026-03-10T06:58:23.584Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"id\":9223372036854775807,\"category\":{\"id\":0,\"name\":\"string\"},\"name\":\"doggie\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":0,\"name\":\"string\"}],\"status\":\"available\"}",
+      "responseTime": 1236,
+      "size": 156
+    }
+  },
+  {
+    "id": "1773123350544",
+    "timestamp": "2026-03-10T06:15:50.544Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"id\":9223372036854775807,\"category\":{\"id\":0,\"name\":\"string\"},\"name\":\"doggie\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":0,\"name\":\"string\"}],\"status\":\"available\"}",
+      "responseTime": 1213,
+      "size": 156
+    }
+  },
+  {
+    "id": "1772101381323",
+    "timestamp": "2026-02-26T10:23:01.323Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"id\":9223372036854775807,\"category\":{\"id\":0,\"name\":\"string\"},\"name\":\"doggie\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":0,\"name\":\"string\"}],\"status\":\"available\"}",
+      "responseTime": 1231,
+      "size": 156
+    }
+  },
+  {
+    "id": "1771227660992",
+    "timestamp": "2026-02-16T07:41:00.992Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"id\":9223372036854775807,\"category\":{\"id\":0,\"name\":\"string\"},\"name\":\"doggie\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":0,\"name\":\"string\"}],\"status\":\"available\"}",
+      "responseTime": 665,
+      "size": 156
+    }
+  },
+  {
+    "id": "1771227648195",
+    "timestamp": "2026-02-16T07:40:48.195Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "text/plain"
+      },
+      "body": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "response": {
+      "status": 415,
+      "statusText": "",
+      "headers": {
+        "content-length": "102",
+        "content-type": "application/xml"
+      },
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><apiResponse><type>unknown</type></apiResponse>",
+      "responseTime": 1112,
+      "size": 102
+    }
+  },
+  {
+    "id": "1770991746313",
+    "timestamp": "2026-02-13T14:09:06.313Z",
+    "request": {
+      "method": "GET",
+      "url": "https://lendmefy.com/home",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": ""
+    },
+    "error": "Failed to fetch"
+  },
+  {
+    "id": "1770895282589",
+    "timestamp": "2026-02-12T11:21:22.589Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{  \n    \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"doggie\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"id\":9223372036854743065,\"category\":{\"id\":0,\"name\":\"string\"},\"name\":\"doggie\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":0,\"name\":\"string\"}],\"status\":\"available\"}",
+      "responseTime": 603,
+      "size": 156
+    }
+  },
+  {
+    "id": "1770895235068",
+    "timestamp": "2026-02-12T11:20:35.068Z",
+    "request": {
+      "method": "POST",
+      "url": "https://petstore.swagger.io/v2/pet/petId",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": ""
+    },
+    "response": {
+      "status": 415,
+      "statusText": "",
+      "headers": {
+        "content-length": "102",
+        "content-type": "application/xml"
+      },
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><apiResponse><type>unknown</type></apiResponse>",
+      "responseTime": 1643,
+      "size": 102
+    }
+  },
+  {
+    "id": "1770892786974",
+    "timestamp": "2026-02-12T10:39:46.974Z",
+    "request": {
+      "method": "GET",
+      "url": "https://petstore.swagger.io/v2/pet/findByStatus",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": ""
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "[]",
+      "responseTime": 1377,
+      "size": 2
+    }
+  }
+]

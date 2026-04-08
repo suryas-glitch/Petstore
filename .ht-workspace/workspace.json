@@ -1,0 +1,14 @@
+{
+  "id": "a573aef4-9499-4537-8e04-52b4fa65381b",
+  "name": "My Workspace",
+  "version": "1.0.0",
+  "createdAt": "2026-03-09T11:51:16.595Z",
+  "updatedAt": "2026-04-08T05:20:39.870Z",
+  "settings": {
+    "theme": "system",
+    "autoSyncEnabled": false,
+    "syncIntervalMs": 60000,
+    "historySyncEnabled": false,
+    "maxHistoryItems": 100
+  }
+}

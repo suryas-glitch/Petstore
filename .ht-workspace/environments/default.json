@@ -1,0 +1,21 @@
+{
+  "id": "default",
+  "name": "Default",
+  "variables": [
+    {
+      "key": "200",
+      "value": "200",
+      "enabled": true
+    },
+    {
+      "key": "201",
+      "value": "200",
+      "enabled": true
+    },
+    {
+      "key": "500",
+      "value": "200",
+      "enabled": true
+    }
+  ]
+}
